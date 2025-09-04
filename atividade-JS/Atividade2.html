@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Boas-Vindas</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+         body {
+            background-color: #543248;
+            text-align: center;
+            
+        }
+
+        button {
+            padding: 13px 100px 13px 100px;
+            background-color: #CFB6C8;
+            border-radius: 5px;
+            border: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Boas-Vindas!</h1>
+    <button onclick="iniciou()">comece aqui!</button>
+
+<script>
+        function iniciou() {
+            let nome = window.prompt('Qual o seu nome?');
+            let idade=window.prompt(`Olá, ${nome}!Quantos anos você tem!` )
+             window.alert(`Que maravilha!${nome} que  você tem ${idade} anos!`);
+        }
+
+    </script>
+
+       
+</body>
+</html>

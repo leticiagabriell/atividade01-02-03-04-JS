@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Antes e Depois</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            background-color: #543248;
+            text-align: center;
+             margin-top: 20%;
+        }
+
+        button {
+            padding: 13px 100px 13px 100px;
+            background-color: #CFB6C8;
+            border-radius: 5px;
+            border: 20px;
+            
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Antecessor e Sucessor: Entendendo os Números Vizinhos</h1>
+    <button onclick="depois()">clique aqui</button>
+
+    <script>
+        function depois() {
+            let numero = parseInt(prompt('digite um número inteiro '));
+            let susesor = numero - 1
+            let antecesor= numero + 1
+              window.alert(`${susesor} È ${antecesor}`);
+
+        }
+
+    </script>
+
+</body>
+
+</html>

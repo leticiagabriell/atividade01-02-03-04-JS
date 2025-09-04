@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <style>
+
+          body {
+            background-color: #132071;
+            text-align: center;
+            margin-top: 20%;
+        }
+       h1 {
+            text-align: center;
+            color: white;
+        }
+
+
+        button {
+            padding: 13px 100px 13px 100px;
+            background-color: #CFB6C8;
+            border-radius: 5px;
+            border: 30px;
+            left: 40px;
+            color: white;
+            
+
+        }
+    </style>
+</head>
+<body>
+
+   <h1>calculadora inteligente-troco</h1>
+    <button onclick="botao()">clique aqui</button>
+    <script>
+        function botao() {
+            let produto = window.prompt('nome do produto');
+            let preço = window.prompt('preço do produto');
+            let dinheiro = window.prompt('pagou quanto em dinheiro?');
+            let troco = dinheiro - preço
+              window.alert(`Você comprou ${produto}, que custa ${preço}. ${troco} de troco! volte sempre!`);
+            
+        }
+   </script>
+    
+</body>
+</html>
